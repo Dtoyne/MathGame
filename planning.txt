@@ -21,9 +21,26 @@ The game doesn’t end until one of the players loses
 all their lives. At this point, the game should announce
 who won and what the other player’s score is.
 
-Nouns:
+Nouns --- New Idea:
 
 1. Players (2)
-2. Problems
-3. Lives (Remaining)
-4. Turns
+  - The role of this class will be to keep track of the players.
+  - Each player will have a name.
+  - Each player will have three lives.
+
+2. Questions
+  - The problems class will keep track of the questions.
+  - The questions will be generated using something similar to Math.Random();
+  - The questions will return a boolean value.
+
+4. Main
+
+  Notes From Lecture:
+
+- Use 'require_relative'
+- 'Super(original func name)' is a function that refers
+     to the function you are overwriting
+- .push || << are both used to 'push' into an array (Ruby)
+- Using @@ in front of a variable allows that variable to
+  belong to the class in which it is defined on... not the instance
+- Instance methods are able to access the class vars
